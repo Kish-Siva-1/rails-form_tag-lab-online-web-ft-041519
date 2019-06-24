@@ -14,7 +14,6 @@ class StudentsController < ApplicationController
 
   def show
     @student = Student.find(params[:id])
-    @student.to_s
   end
 
 end
